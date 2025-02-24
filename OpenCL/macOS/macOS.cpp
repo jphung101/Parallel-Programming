@@ -42,7 +42,11 @@ int main(int argc, char *argv[]){
 
     // COMMAND QUEUE:
     cl_command_queue queue;
-    queue = clCreateCommandQueue(context, device, 0, &err); // TODO: figure out what the "0" is
+    #if __APPLE__
+        queue = clCreateCommandQueue(context, device, 0, &err); // TODO: figure out what the "0" is
+    #else 
+        queue = clCreateCommandQueueWithProperties(context, device_id, 0, &err);
+    #endif
     check(err);
 
     
