@@ -12,6 +12,10 @@ At this point, I am getting a simple `OpenCL` progam to run on *macOS with an M-
 
 As for more complicated programs, I plan to update my [Ray Tracer](https://github.com/jphung101/Ray-Tracer) to support `OpenCL`
 
+# OpenMP
+
+Figured while I am busy to try something "simplier" like `OpenMP`. Might regret this...
+
 # CUDA
 
 WIP
