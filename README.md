@@ -26,4 +26,10 @@ Figured while I am busy to try something "simpler" like `OpenMP`. Might regret t
 ## "PyTorch"
 - Used `PyTorch`'s built in functions to set the processing unit to `Metal Performance Shaders (MPS)` when available.
 - Most of the code is from UCSD's [ECE 284: Low-power VLSI Implementation for Machine Learning](https://github.com/VVIPLab/ece284fa25/tree/main), I simply added `MPS` support and removed some stuff
+- Tested 100 epochs:
+    - `CPU:` 4m 59.3s
+        - ![CPU (4m 59.3s)](Media/PyTorchCPU.png)
+    - `MPS:` 50.3s
+        - ![MPS (50.3s)](Media/PyTorchMPS.png)
+        - Very simple, but it was really cool to see the GPU actually getting used!
 - TODO: Custom loss function
