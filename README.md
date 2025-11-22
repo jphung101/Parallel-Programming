@@ -14,12 +14,16 @@ As for more complicated programs, I plan to update my [Ray Tracer](https://githu
 
 # OpenMP
 
-Figured while I am busy to try something "simplier" like `OpenMP`. Might regret this...
+Figured while I am busy to try something "simpler" like `OpenMP`. Might regret this...
+- Ran `brew install libomp`
+- Agreed to XCode license `sudo xcodebuild -license`
 
 # CUDA
 
-WIP
+*No access to Nvidia GPU, yet*
 
 # Metal
-
-*Heavy* WIP
+## "PyTorch"
+- Used `PyTorch`'s built in functions to set the processing unit to `Metal Performance Shaders (MPS)` when available.
+- Most of the code is from UCSD's [ECE 284: Low-power VLSI Implementation for Machine Learning](https://github.com/VVIPLab/ece284fa25/tree/main), I simply added `MPS` support and removed some stuff
+- TODO: Custom loss function
