@@ -12,16 +12,6 @@ At this point, I am getting a simple `OpenCL` progam to run on *macOS with an M-
 
 As for more complicated programs, I plan to update my [Ray Tracer](https://github.com/jphung101/Ray-Tracer) to support `OpenCL`
 
-# OpenMP
-
-Figured while I am busy to try something "simpler" like `OpenMP`. Might regret this...
-- Ran `brew install libomp`
-- Agreed to XCode license `sudo xcodebuild -license`
-
-# CUDA
-
-*No access to Nvidia GPU, yet*
-
 # Metal
 ## "PyTorch"
 - Used `PyTorch`'s built in functions to set the processing unit to `Metal Performance Shaders (MPS)` when available.
@@ -33,3 +23,13 @@ Figured while I am busy to try something "simpler" like `OpenMP`. Might regret t
         - ![MPS (50.3s)](Media/PyTorchMPS.png)
         - Very simple, but it was really cool to see the GPU actually getting used!
 - TODO: Custom loss function
+
+# OpenMP
+
+Figured while I am busy to try something "simpler" like `OpenMP`. Might regret this...
+- Ran `brew install libomp`
+- Agreed to XCode license `sudo xcodebuild -license`
+
+# CUDA
+
+*No access to Nvidia GPU, yet*
