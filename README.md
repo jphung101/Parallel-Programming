@@ -1,6 +1,6 @@
 # Welcome!
 
-This repo is my attempt to **dive deeper into parallel computing** and to serve as **personal documentation** for myself (corresponding Notion page is pending!). I will be covering (in order) `OpenCL`, `CUDA`, and `Metal` on **macOS** and **Windows**.
+This repo is my attempt to **dive deeper into parallel computing** and to serve as **personal documentation** for myself (corresponding Notion page is pending!). I will be covering `OpenCL`, `CUDA`, and `Metal` on **macOS** and **Windows**.
 
 # OpenCL
 
